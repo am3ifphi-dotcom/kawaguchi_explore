@@ -1,0 +1,20 @@
+{
+  "name": "kawaguchi-shiritsu-explore-3d",
+  "private": true,
+  "version": "1.0.0",
+  "description": "川口市立高等学校 3D探検サイト — 実施設計資料(27901siryou.pdf)・広報かわぐち(P02.pdf)を精読して再現したインタラクティブ3Dキャンパスマップ",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173",
+    "test": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.1",
+    "vite": "^5.4.11"
+  }
+}

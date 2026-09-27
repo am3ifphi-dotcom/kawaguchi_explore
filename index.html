@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>川口市立高等学校 3D探検 | 実施設計資料を立体化</title>
+  <meta name="description" content="川口市「新市立高等学校実施設計について」と広報かわぐちを精読し、川口市立高等学校 第1校地(上青木3-1-40)をThree.jsで3D再現。校舎棟の膜屋根・ラーニングストリート、アリーナ棟、人工芝グラウンドまで歩ける・巡れる探検サイト。" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏫</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="scene"></div>
+  <div id="markers"></div>
+  <div id="crosshair"></div>
+
+  <aside id="panel"></aside>
+
+  <div id="info-card" class="card"></div>
+  <div id="tour-card" class="card"></div>
+  <div id="hint"></div>
+
+  <div id="loader">
+    <div class="loader-in">
+      <div class="logo">🏫</div>
+      <h1>川口市立高等学校 3D探検</h1>
+      <p>実施設計資料(全9頁)を精読して再現中…</p>
+      <div class="bar"><i></i></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
